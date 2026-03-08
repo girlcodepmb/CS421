@@ -6,3 +6,12 @@ CHANGES
 
 Notes:
 - To run: `javac Parallel/FeatureParallelManagerThread.java` then `java Parallel.FeatureParallelManagerThread` from the `src` directory.
+ 
+2026-03-08
+- Added `Main.java`: interactive selector to run `SerialMatrixMultiplication`, `ParallelMatrixMultiplication`, or `FeatureParallelManagerThread` from a single entry point.
+
+To run from `src` directory:
+```
+javac Main.java Serial/SerialMatrixMultiplication.java Parallel/ParallelMatrixMultiplication.java Parallel/FeatureParallelManagerThread.java
+java Main
+```
